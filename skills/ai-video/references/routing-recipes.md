@@ -2,7 +2,8 @@
 
 ## "I need X" → route (verify-quarterly; pick by job, then current tool)
 - **B-roll for a Reel/Short (cinematic cutaway)** → generative: Veo 3.1 (all-round + native audio
-  → veo-3), Kling 3.0 (4K value → kling), Runway Gen-4.5 (tight camera control → runway). Keep clips short.
+  → veo-3), Grok Imagine Video 1.5 (native audio + reference-guided iteration → grok-imagine),
+  Kling 3.0 (4K value → kling), Runway Gen-4.5 (tight camera control → runway). Keep clips short.
 - **Faceless talking-head explainer** → avatar: HeyGen (heygen — creator/social) or Synthesia
   (synthesia — enterprise/L&D/localization). Add VO from ElevenLabs (ai-voiceover) only if not
   using the avatar's own voice.

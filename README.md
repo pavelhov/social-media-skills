@@ -1,6 +1,6 @@
 # Social Media Skills
 
-**Give your AI agent the skills of a top-1% social media team. 106 of them, free.**
+**Give your AI agent the skills of a top-1% social media team. 107 of them, free.**
 
 Install these and your agent stops giving generic social media advice and starts doing the
 actual work: it learns your brand and voice, plans your content calendar, writes LinkedIn
@@ -13,7 +13,7 @@ everything's ready, gets it posted, on your explicit go.
 - **It knows this year's playbook, not 2023's.** Each skill encodes how top practitioners work
   right now — the algorithms, formats, and platform mechanics — fact-checked and kept current.
 - **It covers the whole job.** Strategy, planning, writing, video, design, growth, community,
-  analytics: 106 skills across 14 topics that know about each other and hand work to the right
+  analytics: 107 skills across 14 topics that know about each other and hand work to the right
   specialist, from brand foundation to published post.
 
 > ⭐ **If this is useful, star the repo** — it's how these skills reach more agents.
@@ -21,7 +21,7 @@ everything's ready, gets it posted, on your explicit go.
 ## Quick start
 
 **One command (recommended)** — the [skills CLI](https://github.com/vercel-labs/skills). For
-Claude Code, this installs all 106 skills globally, no prompts:
+Claude Code, this installs all 107 skills globally, no prompts:
 
 ```bash
 npx skills add social-media-skills/skills -g -a claude-code -s '*' -y
@@ -147,7 +147,7 @@ CREATE                hook-writer + the format writers (caption-writer, linkedin
      │                reels-script, tiktok-script, thread-writer, carousel-writer, …)
      ▼                × the content angles (educational, storytelling, contrarian, BTS, …)
 MEDIA                 image-prompt/ai-video routers → nano-banana, ideogram, flux,
-     │                veo-3, kling, luma, heygen, synthesia, ai-voiceover, suno
+     │                veo-3, grok-imagine, kling, luma, heygen, synthesia, ai-voiceover, suno
      │                → edited in capcut / descript / opus-clip / canva
      ▼
 PUBLISH               scheduling-and-queue  (validate → confirm → schedule/post)
@@ -253,7 +253,7 @@ when it's time to post.
 |---|---|
 | Image generation | [nano-banana](skills/nano-banana/SKILL.md) · [ideogram](skills/ideogram/SKILL.md) · [flux](skills/flux/SKILL.md) |
 | Image editing | [ai-image-editing](skills/ai-image-editing/SKILL.md) |
-| Video generation | [ai-video](skills/ai-video/SKILL.md) (router) · [veo-3](skills/veo-3/SKILL.md) · [kling](skills/kling/SKILL.md) · [luma](skills/luma/SKILL.md) · [runway](skills/runway/SKILL.md) · [heygen](skills/heygen/SKILL.md) · [synthesia](skills/synthesia/SKILL.md) |
+| Video generation | [ai-video](skills/ai-video/SKILL.md) (router) · [veo-3](skills/veo-3/SKILL.md) · [grok-imagine](skills/grok-imagine/SKILL.md) · [kling](skills/kling/SKILL.md) · [luma](skills/luma/SKILL.md) · [runway](skills/runway/SKILL.md) · [heygen](skills/heygen/SKILL.md) · [synthesia](skills/synthesia/SKILL.md) |
 | Voice & music | [ai-voiceover](skills/ai-voiceover/SKILL.md) · [suno](skills/suno/SKILL.md) · [ai-music-and-sound](skills/ai-music-and-sound/SKILL.md) (router) |
 | Editing & clipping | [capcut](skills/capcut/SKILL.md) · [descript](skills/descript/SKILL.md) · [opus-clip](skills/opus-clip/SKILL.md) · [captions-and-clipping](skills/captions-and-clipping/SKILL.md) |
 | Design platform | [canva](skills/canva/SKILL.md) |
@@ -293,7 +293,7 @@ when it's time to post.
 ## Repo layout
 
 ```
-skills/                  106 skills; each: SKILL.md + references/ + evals/
+skills/                  107 skills; each: SKILL.md + references/ + evals/
 tools/
   REGISTRY.md            index of agent-usable tool integrations
   integrations/          per-tool connection guides (publishing, image, video, audio, editing)

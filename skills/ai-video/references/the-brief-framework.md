@@ -11,19 +11,21 @@ Write a **portable brief** that any capable model could execute. Fields:
 - **Subject** (who/what), **Action** (what happens), **Setting** (where).
 - **Light/mood**, **camera** (shot size + move), **aspect** (9:16 / 1:1 / 16:9), **duration**
   (match the platform and the clip-length reality of the tools).
-- **Audio plan:** native (Veo/Kling) vs added in post (everything else) — decide up front.
+- **Audio plan:** native when the selected current generation mode supports it (Veo, Kling, or
+  Grok Imagine Video 1.5) vs added in post (including Luma and Runway) — decide up front and
+  verify quarterly.
 - **Brand fit:** palette/mood from brand-profile so generated and filmed footage cut together.
 No tool name lives in the brief. The tool is chosen at routing time and can change.
 
 ## R — Route by fit (output shape first, leaderboard second)
 Match the **job** (generative / avatar / voiceover / clip-captions) to the tool category, then the
 specific tool by its real strength (quality, control, value, HDR, dialogue). Hand prompt craft to
-the tool skill (veo-3 / kling / luma for generative; heygen / synthesia for avatars; ai-voiceover;
+the tool skill (veo-3 / grok-imagine / kling / luma / runway for generative; heygen / synthesia for avatars; ai-voiceover;
 captions-and-clipping). When in doubt, a multi-model hub lets you try several without committing.
 
 ## I — Iterate cheaply
-Separate **concept testing** (fast/cheap: Pika, Hailuo, Luma) from **final generation** (Veo, Kling,
-Runway). Run the same brief through 3–4 candidates and judge **usable-take rate on your own prompts**,
+Separate **concept testing** (fast/cheap: Pika, Hailuo, Luma) from **final generation** (Veo, Grok
+Imagine, Kling, Runway). Run the same brief through 3–4 candidates and judge **usable-take rate on your own prompts**,
 not cherry-picked demos. Budget-aware: heavy iteration on credit-heavy tools gets expensive fast.
 
 ## E — Edit & assemble
@@ -42,7 +44,7 @@ clips as **short cutaways supporting real footage** — not the whole piece.
 JOB: generative B-roll | avatar | voiceover | clip+captions
 SUBJECT / ACTION / SETTING:
 LIGHT+MOOD / CAMERA / ASPECT / DURATION:
-AUDIO: native (Veo/Kling) | post (ElevenLabs via ai-voiceover)
+AUDIO: native (Veo/Kling/Grok Imagine Video 1.5 current modes) | post (Luma/Runway; ElevenLabs via ai-voiceover) | verify-quarterly
 BRAND: palette + mood (brand-profile)
 ROUTE: tool category -> candidate tools (verify-quarterly) -> mini-skill
 DISCLOSURE: platform label plan
