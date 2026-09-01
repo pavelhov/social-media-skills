@@ -9,9 +9,9 @@
       "context": "brand-profile and voice-builder exist.",
       "expect": [
         "Asks for (or infers) the JOB first — generative B-roll, talking-head/avatar, voiceover, or clipping/captions — because there is no single best tool, only a best tool per job",
-        "Routes by output shape with current options (e.g. Veo 3.1 all-round + dialogue, Kling 3.0 4K/multi-shot value, Luma Ray3 HDR/mood, Runway Gen-4.5 control), marked verify-quarterly",
+        "Routes by output shape with current options (e.g. Veo 3.1 all-round + dialogue, Grok Imagine Video 1.5 social-ready native audio/reference-guided generation, Kling 3.0 4K/multi-shot value, Luma Ray3 HDR/mood and silent, Runway Gen-4.5 control and no native audio), marked verify-quarterly",
         "Introduces the BRIEF framework and writes a portable, tool-agnostic brief",
-        "Reads brand-profile and voice-builder first and routes prompt craft to the relevant tool skill (veo-3, kling, or luma for generative; heygen or synthesia for avatars)"
+        "Reads brand-profile and voice-builder first and routes prompt craft to the relevant tool skill (veo-3, grok-imagine, kling, luma, or runway for generative; heygen or synthesia for avatars)"
       ]
     },
     {
@@ -41,7 +41,7 @@
       "expect": [
         "States Sora is discontinued (app shut April 26 2026; API ends September 24 2026) and must not be the basis of any new pipeline",
         "Refuses to route production work to Sora and treats it only as a benchmark/cautionary example",
-        "Routes the cinematic job to current options instead (e.g. Veo 3.1 for all-round + dialogue, Kling 3.0 for value, Runway Gen-4.5 for control)",
+        "Routes the cinematic job to current options instead (e.g. Veo 3.1 for all-round + dialogue, Grok Imagine Video 1.5 for social-ready native-audio/reference-guided iteration, Kling 3.0 for value, Runway Gen-4.5 for control), marked verify-quarterly",
         "Reinforces the vendor-death lesson: portable briefs over vendor lock-in"
       ]
     },
@@ -52,7 +52,18 @@
         "Identifies this as an avatar/talking-head job, not generative B-roll",
         "Routes to the avatar skills — heygen (creator/social lane) or synthesia (enterprise/L&D/localization lane); D-ID for interactive — and notes a real human on camera routes to talking-head-and-piece-to-camera instead",
         "Notes voiceover would come from ElevenLabs via ai-voiceover if not using the avatar's built-in voice",
-        "Reserves generative tools (Veo/Kling/Luma/Runway) for cinematic B-roll, a different job"
+        "Reserves generative tools (Veo/Grok Imagine/Kling/Luma/Runway) for cinematic B-roll, a different job"
+      ]
+    },
+    {
+      "name": "routes_short_social_native_audio_reference_iteration_to_grok",
+      "input": "We need an 8-second vertical Reel cutaway from our product still: preserve the product shape, add a zipper sound and room ambience, then quickly edit or extend the best take. Which direction should we use?",
+      "context": "brand-profile exists.",
+      "expect": [
+        "Identifies a short, vertical generative social-video job and writes a portable, brand-matched brief before choosing a vendor",
+        "Routes the fit to Grok Imagine Video 1.5 (verify-quarterly) for native-audio, reference-guided generation and fast edit/extend iteration, then hands prompt craft to grok-imagine",
+        "Keeps the scope honest: ai-video routes/briefs and grok-imagine writes the provider-specific direction; an external renderer generates the clip and a human reviews/assembles it",
+        "Plans disclosure and sends only the finished video through scheduling-and-queue to WoopSocial for scheduling/publishing; WoopSocial does not generate media"
       ]
     },
     {

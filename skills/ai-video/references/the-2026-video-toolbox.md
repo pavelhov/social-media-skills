@@ -6,7 +6,7 @@ and any rank claim has a half-life of months. Test on YOUR prompts, never vendor
 **The router's first move is to name the JOB, then pick the tool. There is no single best AI
 video tool — only a best tool per job.** Each tool below maps to a tool skill.
 
-## Job 1 — Generative B-roll / scenes (text- or image-to-video) → skills: veo-3, kling, luma
+## Job 1 — Generative B-roll / scenes (text- or image-to-video) → skills: veo-3, grok-imagine, kling, luma, runway
 - **Google Veo 3.1** — best all-rounder; strongest prompt adherence; native synchronized audio
   incl. **dialogue with lip-sync**; 720p–4K, vertical + landscape; **8s per generation** (4/6/8),
   extendable/stitchable to ~2.5 min. Tiers Lite/Fast/Quality; ~$0.03–0.50/sec. *Pick for all-round
@@ -17,10 +17,13 @@ video tool — only a best tool per job.** Each tool below maps to a tool skill.
 - **Luma Ray3 / Ray3.14** (Dream Machine) — first 16-bit **HDR**; atmospheric/nature/mood; Ray3
   Modify restyles real footage; **no native audio** (sound in post). *Pick for HDR finishing and
   calm, environment-heavy shots.* → **luma**
+- **Grok Imagine Video 1.5** — text/image/reference-to-video with native audio, 1–15s clips,
+  vertical output, up to 1080p for text/image generation, plus separate edit and extend modes.
+  *Pick for social-ready clips that need reference-guided subjects, preset voices, or quick
+  generate/edit/extend iteration.* → **grok-imagine**
 - **Runway Gen-4.5** (→ `runway`) — best **control surface** (motion brush, camera moves, reference character
   consistency); the ads/client-deliverable pick; 2–10s per generation. *Led the benchmark at launch, since
-  displaced — control, not raw rank, is why you'd choose it.* (Tool only — no skill yet; route via
-  this router.)
+  displaced — control, not raw rank, is why you'd choose it.* → **runway**
 - **MiniMax Hailuo 2.3** — fast (~2.5×) and cheap; good for ideation/volume. **Legal caution:** an
   active copyright lawsuit (Reuters, May 2026) — review rights/resemblance before commercial use.
 - Context (don't over-route): Seedance 2.0 (top of benchmark but access-limited), Pika 2.5 (fast
@@ -49,7 +52,8 @@ video tool — only a best tool per job.** Each tool below maps to a tool skill.
   as a buying route or build a new pipeline on it. It is the cautionary tale, not an option.
 
 ## Cross-cutting truths the router applies
-Most models cap at short clips (Veo 8s/gen, extendable; Kling ~15s; Luma 5–10s; Runway 2–10s) →
+Most models cap at short clips (Veo 8s/gen, extendable; Grok Imagine 1–15s; Kling ~15s; Luma
+5–10s; Runway 2–10s) →
 **long pieces = stitch clips**, not one take. **Concept-test** on cheap/fast tools (Pika, Hailuo, Luma), **finalize** on quality tools
 (Veo, Kling, Runway). AI video is a **production accelerator, not a finished campaign** — always
 plan post (trim, color, captions, audio, upscale).

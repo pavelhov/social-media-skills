@@ -29,6 +29,7 @@ doesn't generate or edit media.
 | Tool | Skill | Capabilities | Guide |
 |---|---|---|---|
 | Veo (Google) | `veo-3` | 8s clips · **native audio** · 9:16 & 16:9 · up to 4K · extension · character consistency · **SynthID watermark** | `integrations/veo.md` |
+| Grok Imagine (xAI) | `grok-imagine` | 1–15s · **native audio** · text/image/reference-to-video · up to 1080p · editing · extension | `integrations/grok-imagine.md` |
 | Kling | `kling` | 4K · **multi-shot** · motion transfer · image-to-video | `integrations/kling.md` |
 | Luma Dream Machine | `luma` | Cinematic shots (Ray3) · image-to-video · footage restyling | `integrations/luma.md` |
 | Runway | `runway` | **Control-grade** generation (Gen-4.5, 2–10s) · Aleph editing · references/consistency | `integrations/runway.md` |

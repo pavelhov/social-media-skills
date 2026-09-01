@@ -6,7 +6,7 @@ and WoopSocial only *schedules/publishes*. It generates nothing itself.
 
 ## The three-layer pattern (mirrors the image cluster)
 ```
-tools/integrations/<tool>.md   → connection + API (veo, kling, luma, heygen, synthesia, elevenlabs)
+tools/integrations/<tool>.md   → connection + API (veo, grok-imagine, kling, luma, runway, ...)
 tool skill (veo-3, kling, ...) → how to prompt that tool well
 ai-video (this skill)          → which tool for the job + the portable brief
 in-skill pack                  → applied (reels-script's veo-prompt-pack, etc.)
@@ -15,8 +15,8 @@ in-skill pack                  → applied (reels-script's veo-prompt-pack, etc.
   ai-video is the **parallel router above the video tools** — wire the tool skills and image-prompt
   to point back here.
 - Adding a video tool requires: `tools/integrations/<tool>.md`, an update to `tools/REGISTRY.md`,
-  and bidirectional cross-links. Live now: veo-3, kling, luma (generative); heygen, synthesia
-  (avatars); ai-voiceover; captions-and-clipping; runway (control/edit-grade).
+  and bidirectional cross-links. Live now: veo-3, grok-imagine, kling, luma, runway (generative);
+  heygen, synthesia (avatars); ai-voiceover; captions-and-clipping.
 
 ## Robustness-to-tool-death playbook
 The space is volatile (Sora discontinued mid-cycle; ranks move weekly). To stay resilient:
@@ -39,8 +39,8 @@ The space is volatile (Sora discontinued mid-cycle; ranks move weekly). To stay 
   not a command.**
 
 ## Where this connects
-Counterpart: **image-prompt**. Tool skills: **veo-3, kling, luma** (generative); **heygen,
-synthesia** (avatars); **ai-voiceover**; **captions-and-clipping**. Filmed human →
+Counterpart: **image-prompt**. Tool skills: **veo-3, grok-imagine, kling, luma, runway**
+(generative); **heygen, synthesia** (avatars); **ai-voiceover**; **captions-and-clipping**. Filmed human →
 **talking-head-and-piece-to-camera**. Image tools for thumbnails/first frames: **nano-banana,
 ideogram**. Consumers of briefs: **reels-script** (veo-prompt-pack), **tiktok-script**,
 **youtube-shorts**, **youtube-long-form**, **cross-platform-repurposing**. Publish:
