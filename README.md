@@ -317,6 +317,34 @@ The fastest useful PR: add a tool integration (`tools/integrations/<name>.md` + 
 [skills/x-growth/](skills/x-growth/SKILL.md) for the structure (SKILL.md + 4 references +
 evals). Every skill-name mention must resolve to a real skill directory.
 
+## Maintaining this fork
+
+This fork uses two long-lived branches: `development` integrates upstream changes with
+fork-specific work, while `main` remains stable. Promote tested changes from `development`
+to `main` through a pull request.
+
+`origin` is the writable fork. `upstream` fetches only the official `main` branch, does not
+fetch tags, and rejects pushes. To bring upstream changes into `development`:
+
+```bash
+git fetch upstream --prune
+git switch development
+git pull --ff-only origin development
+git merge upstream/main
+
+./scripts/validate-skills.sh
+git push origin development
+```
+
+After validation passes, open a pull request from `development` to `main`. Create
+fork-specific work from `development`:
+
+```bash
+git switch development
+git pull --ff-only origin development
+git switch -c codex/<short-topic>
+```
+
 ## License
 
 MIT — maintained by Frank Heijdenrijk and the team behind
