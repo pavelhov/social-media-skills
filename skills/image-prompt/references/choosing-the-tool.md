@@ -26,7 +26,7 @@ Pick by the **dominant requirement** of the image:
 - **Brand-exact colors (hex parameters) / license control / open weights you can run/tune** →
   **`flux`** (or Ideogram's open weights).
 - **Vector / SVG for brand work** → **Recraft** (vector-native).
-- **Moving image / video** → **`veo-3`** (and animate a still via the image→video pipeline).
+- **Moving image / video** → **`ai-video`** to select an available, authorized route (including image-to-video).
 
 ## Honest "which of two?" calls
 

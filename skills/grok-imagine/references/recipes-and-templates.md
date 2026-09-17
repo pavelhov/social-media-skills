@@ -91,6 +91,15 @@ NAIL: no extra words, captions, logos, or off-screen voices. Review the spoken l
 and product claim before use. Record approved human voice in post if generated delivery is not brand-safe.
 ```
 
+## Apply templates to the actual shot
+
+Delete irrelevant template fields: an absent character's pouch, wardrobe or voice must not leak into
+another shot. Inspect the actual input image for the required initial pose, contacts, prop ownership
+and background state before animation. Compare the expected ending with the next shot's beginning.
+No prompt guarantees rigid contact, identity, or exact speech. Record unknown checks honestly.
+Use the iteration card only inside an approved test/repair scope; preserve successful assets and
+check timed-out jobs before retrying. Do not infer reroll permission from remaining budget.
+
 ## Cheap iteration card
 1. Confirm the mode and rights before rendering.
 2. Draft one short useful shot at a supported lower resolution.

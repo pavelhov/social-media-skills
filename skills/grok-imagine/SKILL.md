@@ -31,6 +31,28 @@ preservation constraints. For a sequence, write one brief per shot and assemble 
 2. **brand-profile** — visual identity, audience, and non-negotiables.
 3. **short-form-video-script** or **scripting-and-storyboarding** — when the request spans multiple shots.
 
+## Workflow authority and evidence
+
+User and account constraints govern route, music, captions, runtime and generation consent. Confirm
+subscription CLI versus paid API first; the API capability matrix is not a CLI capability guarantee.
+Inspect the actual keyframe before animation: performer, pose, contact geometry, opening/obstacle,
+prop ownership and background must support the requested action. Reject an inconsistent starting
+state before spending video quota; extra negative instructions cannot repair its geometry.
+
+For each shot, remove template instructions about absent characters, clothing and props. Check
+starting state → one dominant action → required end state against neighboring shots. Avoid large
+motion verbs paired with immobility requirements; stage the intended small movement explicitly.
+A reference guides generation; it does not guarantee physical constraints or identity persistence.
+
+Approve planned tests/first passes as a bounded scope. No autonomous corrective rerolls; follow the
+account's repair approval rules and preserve originals. After a timeout, inspect job/artifact state
+before considering a retry. A budget ceiling is not permission to regenerate.
+
+Separate technical export checks from semantic readiness. Record checks actually performed and
+pass/fail/unknown evidence. Contact sheets establish sampled visual evidence; ASR is tentative text,
+not proof of exact words, speaker ownership, lip sync, prosody or absence of music. Full audiovisual
+claims require actual synchronized review. Unknown/failed essential checks remain review drafts.
+
 ## The framework: MOTION
 (Depth: `references/the-motion-framework.md`.)
 - **M — Match the mode:** text-to-video for invention; image-to-video for a fixed first frame;
@@ -45,7 +67,7 @@ preservation constraints. For a sequence, write one brief per shot and assemble 
 - **O — Orchestrate audio:** specify dialogue exactly, then foley, ambience, and music—or request a
   silent result. Generated clips include audio by default on the current model family.
 - **N — Nail constraints and review:** bind each reference to its job; state what edits must preserve;
-  test short/low-resolution first, final-render only the winner, then review picture and sound.
+  use only approved tests/first passes and repair batches, then review picture and sound.
 
 ## Pick the mode before writing the prompt
 | Need | Mode | Direction that matters |
@@ -62,7 +84,7 @@ belong in `tools/integrations/grok-imagine.md`.
 
 ## The current reality (verify-quarterly)
 The current Grok Imagine video family supports text-to-video, image-to-video, reference-to-video,
-video editing, and extension. Standard generation accepts **1–15 seconds** and common social aspect
+video editing, and extension. The documented API generation contract accepts **1–15 seconds** and common social aspect
 ratios; 480p, 720p, and 1080p are available where the selected mode supports them. Audio is generated
 by default and can be disabled; reference mode can use supported preset voices. Rendering is
 asynchronous. Mode-specific resolution/duration limits, model aliases, pricing, rate limits, and voice

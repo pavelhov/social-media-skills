@@ -7,7 +7,7 @@ description: >-
   prompt an image," or is unsure which image tool/model to use. Reads brand-profile for the visual
   brand. Teaches the image brief, the universal anatomy of a strong prompt in natural language, and a
   tool router (typographic -> ideogram/nano-banana; photoreal -> nano-banana/flux; surreal ->
-  Midjourney; editing -> nano-banana/flux; vector -> Recraft; video -> veo-3).
+  Midjourney; editing -> nano-banana/flux; vector -> Recraft; video -> ai-video).
   Includes a "should this even be AI-generated?" gate (a real photo, screenshot, or chart often beats
   generic AI), accessibility, and honest scope (disclose AI, never real identifiable people or
   copyrighted IP, verify text/data). Hands off to the tool-specific mini-skills; WoopSocial publishes
@@ -58,10 +58,17 @@ Pick by the image's **dominant requirement**:
 - **Editing** ("change one thing, keep the rest") → `nano-banana` (conversational) or `flux` (Kontext).
 - **Consistent character/product set** → `nano-banana` (multi-image references) or `flux` (multi-reference).
 - **Search-grounded infographics** → `nano-banana`. **Brand-exact hex / open weights / license control** → `flux`.
-- **Vector/SVG** → Recraft. **Video** → `veo-3`.
+- **Vector/SVG** → Recraft. **Video** → `ai-video` for an authorized route, not a fixed provider.
 
 When two fit, **say both work and pick by the deciding factor** — don't fake a winner. See
 `references/choosing-the-tool.md`.
+
+Honor the user's available and approved tooling, including native image generation when exposed.
+Do not replace an authorized native image route with a paid API just because a router lists one.
+For animation keyframes, inspect the generated image before handoff: starting pose, physical contact,
+prop owner/location, obstacle geometry and background must match the action and adjacent shots.
+An attractive still with the wrong starting state is not an approved animation input. Remove stale
+reference/template attributes belonging to other characters or shots.
 
 ## Step 4 — Hand off, then ship
 

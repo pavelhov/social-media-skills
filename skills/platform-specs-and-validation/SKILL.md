@@ -30,6 +30,14 @@ account-specific values (Pinterest board, TikTok privacy) resolved from `platfor
 `POST /posts/validate` to catch what's left. This skill is where the format skills come to **make sure it
 will actually go through.**
 
+## Platform acceptance is not semantic video approval
+
+This skill checks publish fields and media compatibility, not whether generated action, continuity,
+speech or story are correct. Carry the production review's pass/fail/unknown status into handoff.
+Do not convert a successful API validation, technical export, ASR transcript or contact sheet into
+full audiovisual approval. Essential unresolved production checks remain a review draft; account
+semantic-QC and explicit publishing approval still apply.
+
 ## The framework: CHECK
 (Depth: `references/the-check-framework.md`.)
 - **C — Collect the targets + project:** list the social accounts; confirm they're in the **same project**;
