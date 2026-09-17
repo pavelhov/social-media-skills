@@ -19,6 +19,8 @@ mode caps, preset voices, and rate limits are volatile: verify them against xAI'
 These are separate modes. Incompatible input types should become separate reviewed requests rather than one
 overloaded call.
 
+These documented API capabilities do not establish subscription CLI support; inspect the selected route.
+
 ## Duration, resolution, audio, and async behavior
 - Standard generation accepts **1–15 seconds**. That makes outputs shots, not complete long-form videos.
 - The provider currently exposes **480p, 720p, and 1080p where the mode supports them**. Text-to-video and
@@ -48,10 +50,11 @@ overloaded call.
 Cost varies by duration, resolution, mode, and current provider pricing. The practical loop is stable:
 
 1. Lock the mode, aspect ratio, and one-shot storyboard before rendering.
-2. Test at a supported lower resolution and short useful duration.
+2. If explicitly included in the approved scope, test at a supported lower resolution and useful duration.
 3. Change one prompt variable at a time; log the prompt/reference set with each candidate.
 4. Final-render only the chosen composition at the required resolution.
-5. Keep a retry budget; failures and unusable variations can still consume time or quota.
+5. Follow the approved repair batch, not merely a retry budget. Remaining quota is not permission to reroll.
+   Inspect timed-out job state before any retry; preserve completed originals and selected assets.
 
 Never quote a remembered price, model alias, rate limit, reference cap, or voice roster as permanent.
 **Verify-quarterly** and verify again before a large batch.

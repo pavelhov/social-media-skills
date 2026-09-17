@@ -21,14 +21,23 @@ The **master scripting craft** for short-form vertical video — win the first 3
 for sound-off *and* sound-on, cash the hook's promise, and hold the loop. The **platform skills** specialize it,
 the **human** shoots it, **WoopSocial publishes** the finished file.
 
+## Brief and account precedence
+
+Read the user's delivery brief and account rules before applying format defaults. Captions, added
+music, CTA, loop and target runtime are choices, not requirements. A caption-free visual story can
+communicate silently through action and composition; do not add text to satisfy this framework.
+A standalone ending may resolve the story without a CTA or sequel hook. Derive runtime and shot count
+from complete actions and naturally spoken lines, then check the authorized provider's actual limits.
+The numerical vendor benchmarks below are attributed hypotheses with limited context, not universal
+facts about this audience or guarantees of retention.
+
 ## The POV: the script's only job is to be un-skippable
 In short-form the metric that decides everything is **watch-through, not likes** — so a script isn't "words to
-say," it's a retention machine. Two truths most scripts ignore. First, **~80% watch on mute** — so write the
-*silent* version first; if the on-screen text doesn't carry the story, the script fails before the audio matters.
-Second, **the loop matters as much as the hook** — a seamless ending that flows back to frame 1 manufactures the
-re-watches the algorithm reads as a hit. And the honesty edge that doubles as a growth tactic: an over-promising
-hook with an under-delivering payoff creates a mid-video **retention cliff the algorithm punishes** — so a *true
-promise, kept* is the cleanest path to reach. Cut every second that isn't earning the next.
+say," it's a retention machine. Two useful hypotheses to test: muted comprehension and an earned ending. Some vendor summaries
+claim **~80% watch on mute**, but applicability varies. Design silent comprehension through readable
+action/composition and, when permitted by the brief, text.
+An earned ending can encourage rewatching; a loop is one option, not an algorithm guarantee.
+Keep the hook's promise and cut seconds that do not develop the story or deliver its payoff.
 
 ## Read these first
 1. **brand-profile** + **voice-builder** — the voice the script speaks in.
@@ -39,14 +48,14 @@ promise, kept* is the cleanest path to reach. Cut every second that isn't earnin
 (Depth: `references/the-watch-framework.md`.)
 - **W — Win the first 3 seconds:** ~50–60% of drop-off is here. Most striking frame first, no intro/logo/"hey
   guys"; a layered hook (visual + on-screen text + verbal ≈ 3× the hold); shot-list 5 hook variants to test.
-- **A — Arc with open loops:** Hook → Body → Payoff → CTA/loop; open a loop early, number the points, change the
+- **A — Arc with open loops:** Hook → Body → Payoff → optional CTA/loop; open a loop early, number the points, change the
   visual every ~2–4s, and cut any line that doesn't grab, teach, or set up a payoff.
-- **T — Two tracks (sound-off + sound-on):** write the muted version first; on-screen text carries it, audio
-  adds; captions from word one; test the cut on mute.
+- **T — Two tracks (sound-off + sound-on):** test muted comprehension through action and composition;
+  add captions only when the brief permits them. Audio contributes character, information and timing.
 - **C — Cash the promise:** the payoff delivers what the hook sold (no bait-and-switch); over-promising tanks AVD;
   watch-through is the verdict.
-- **H — Hold the loop, land the CTA:** engineer the ending to flow back to frame 1 (replays compound reach); one
-  fitting ≈2s CTA tied to value — never a rote "like & subscribe."
+- **H — Land the ending:** pay off the premise. Use a loop or fitting CTA only when it serves the brief;
+  a resolved standalone story needs neither.
 
 ## The reality (verify-quarterly)
 Watch-through is the single most important signal; ~50–60% of drop-off is in the first 3 seconds (OpusClip), and
@@ -85,12 +94,11 @@ the platform script skill's output → **scheduling-and-queue → WoopSocial.** 
 **analytics-and-reporting** on 3s hold / AVD / replays / saves — never fabricated.
 
 ## Definition of done
-A shootable script built as three-track beats (visual + on-screen text + spoken, with shot direction) for ~15–35s
-(~75 words ≈ 30s), opening on the most striking frame with a layered, specific, honest hook (5 variants to test,
-no intro/logo), arced with open loops and a visual change every ~2–4s with every line earning the next, written
-muted-first so on-screen text carries it (captions from word one, tested on mute), paying off exactly what the
-hook promised (no bait-and-switch), and ending on an engineered loop + one fitting ≈2s value CTA (not "like &
-subscribe"); platform specifics routed to reels-script/tiktok-script/youtube-shorts; the human shoots/edits and
+A shootable script built as three-track beats (visual + spoken + optional permitted text, with shot direction) for a script-driven target runtime
+(with dialogue timed at a natural pace), opening on the most striking frame with a layered, specific, honest hook (5 variants to test,
+no intro/logo), arced with open loops and a visual change every ~2–4s with every line earning the next,
+tested for muted comprehension with action/composition and optional permitted captions, paying off exactly what the
+hook promised (no bait-and-switch), and ending on an earned payoff, with an optional brief-appropriate loop or CTA; platform specifics routed to reels-script/tiktok-script/youtube-shorts; the human shoots/edits and
 WoopSocial publishes the finished file; measured on 3s hold / AVD / replays / saves rather than likes;
 AI-disclosure, likeness/consent, YMYL, and the no-native-trending-audio limit handled; **no fabricated stats, no
 bait-and-switch, no virality guarantee**; and correctly distinguished from the platform script skills, hook-writer,

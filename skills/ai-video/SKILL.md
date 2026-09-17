@@ -29,6 +29,15 @@ best AI video tool — only a best tool per job.**
 1. **brand-profile** — look, palette, mood, non-negotiables.
 2. **voice-builder** — tone, so any scripted/voiced video sounds like the brand.
 
+## Respect the selected workflow
+
+Read user/account locks before routing: subscription versus API billing, available tools, provider,
+assembly path, music, captions, runtime and consent. A provider recommendation is not authorization
+to switch routes or spend. API capabilities/prices do not establish subscription CLI capabilities/cost.
+Use inspected local tool support and job receipts; label unknowns. Planned tests and first-pass calls
+need concrete scope approval; corrective generations need the account's approved repair scope.
+Prefer existing-footage repairs where suitable. Do not turn a budget ceiling into retry permission.
+
 ## The framework: BRIEF
 (Depth: `references/the-brief-framework.md`.)
 - **B — Brief the job, not the tool:** a portable spec (subject, action, setting, light/mood,

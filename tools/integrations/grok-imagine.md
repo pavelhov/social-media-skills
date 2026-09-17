@@ -11,14 +11,34 @@ the finished file publishes through `scheduling-and-queue → WoopSocial`.
 > `https://docs.x.ai/developers/rest-api-reference/inference/videos`, and
 > `https://docs.x.ai/build/modes-and-commands`.
 
+## Select the authorized execution route first
+
+Read the user's route, budget and account rules before selecting a connection. A subscription-backed
+Grok CLI workflow and the paid xAI API are separate authorization and capability contracts.
+
+- **Subscription CLI selected:** use the existing authenticated CLI through the approved local adapter.
+  Inspect its supported operations, parameters, installed version and returned receipts. Do not create
+  an API key, call paid API endpoints or substitute a provider without authorization. API model names,
+  preset voices, audio switches, editing/extension, durations and resolutions below do not establish
+  CLI support. Record the actual observed model identifier, or unknown; do not relabel an endpoint.
+- **API selected:** use the API/SDK instructions and verified API pricing below.
+- **Cost:** subscription access does not mean unlimited or free media. If media cost is not exposed,
+  report it as unknown and disclose call counts/quotas. Coding-agent session dollar totals are not
+  media charges. Never use API per-second prices as a subscription CLI quote.
+- A request for reliability or better quality does not authorize switching billing routes.
+
 ## Authentication and side-effect gate
 
-- Create an xAI API key and expose it as `XAI_API_KEY`. Send it only as a bearer token to
+- For an authorized API workflow, create an xAI API key and expose it as `XAI_API_KEY`. Send it only as a bearer token to
   `https://api.x.ai`; never print it, commit it, put it in a prompt, expose it client-side, or read
   credentials from another tool's auth files.
-- **Get explicit user confirmation before every paid or quota-consuming render.** Show the final
-  prompt, model, mode, duration, aspect ratio, resolution, number of variations, and estimated cost
-  first. Approval of a brief is not approval to submit a render.
+- **Obtain approval for a concrete generation scope or bounded batch before spending quota.** Disclose
+  route, shot/action plan, mode, duration, aspect ratio, resolution, planned calls and known/unknown
+  media cost. A full-run approval covers its disclosed first-pass calls; do not ask again per call.
+  Follow stricter account repair rules. A spending ceiling alone never authorizes corrective rerolls.
+  Before corrective generation, disclose affected shots, preserved assets, method and attempt allowance
+  and obtain approval unless that exact repair batch is already approved. Do not expand scope or
+  change provider/billing route silently. Preserve originals and successful selected shots.
 - A completed render is still a draft. Review it for quality, rights, safety, and disclosure before
   any publishing step. Publishing, scheduling, and deletion each require their own explicit user
   confirmation.
@@ -56,8 +76,9 @@ The CLI also supports agent-driven headless sessions with `grok -p "..."`. That 
 interactive or supervised convenience, but it is not the same contract as calling the video API:
 the agent chooses actions, and its output is less deterministic for submit/poll/download
 automation. The documented CLI has **no top-level `grok video ...` subcommand**; do not invent one.
-Use the direct API or official SDK when a machine-readable request ID, stable polling, and reliable
-artifact persistence matter.
+For an authorized API workflow, prefer the direct API or official SDK when machine-readable job IDs
+and polling are needed. A subscription-only lock takes precedence: use and validate the approved CLI
+adapter, surface its limitations, and never switch to paid API automatically.
 
 ## Models and capability matrix (verify-quarterly)
 

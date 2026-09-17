@@ -71,8 +71,11 @@ Close the brief with control and an iteration plan:
 - Bind references: “Reference 1 controls the product shape and label; Reference 2 controls palette only.”
 - For edits: “Change the jacket to navy; preserve face, body motion, timing, framing, background, and audio.”
 - For extension: “Continue the same left-to-right walk and dolly speed; preserve dusk light and rain bed.”
-- Draft short at a supported lower resolution, change one variable per iteration, and promote only the
-  chosen result to the required final setting.
+- If approved, test short at a supported lower resolution. Each new render consumes quota; an approved
+  first-pass budget does not authorize corrective iteration. Use the disclosed repair batch allowance.
+- Before animation inspect actual keyframe geometry and prop ownership. Remove copied constraints for
+  absent characters/props. Check adjacent shot states and simplify competing motion requirements.
+- Record sampled visual checks and ASR as partial evidence; neither proves full audiovisual correctness.
 - Human-review picture and sound: brand/identity, geometry, hands, readable text, motion continuity,
   unwanted edits, dialogue, foley sync, artifacts, rights, claims, and disclosure.
 
