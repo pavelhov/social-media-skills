@@ -37,8 +37,8 @@
       "name": "video-hook-three-channels",
       "input": "Write the first 3 seconds for a Reel about this.",
       "expect": [
-        "delivers all three channels: opening visual, on-screen text, and the first spoken line",
-        "the on-screen text + visual hook work with sound OFF (muted-first)",
+        "Delivers the opening visual/performed action and first spoken words, adding on-screen text only when the brief permits it",
+        "Checks what works muted through action/composition and permitted text; does not override a no-caption or dialogue-led identity",
         "does not open with a logo, a slow intro, or a greeting",
         "the hook lands within the first ~1-3 seconds"
       ]
@@ -79,6 +79,26 @@
         "still generates several internally and selects the strongest rather than shipping the first idea",
         "delivers the best one (and can show a runner-up)",
         "the delivered hook passes the gap + specificity + truth + voice checks"
+      ]
+    },
+    {
+      "name": "video_executable_openers_no_caption_identity",
+      "input": "Give three opening options for a short where Mira carries a ringing parcel into a clinic and Dr. Sen treats the parcel.",
+      "context": "No burned captions or on-screen dialogue, no music. Downstream story/payoff is fixed.",
+      "expect": [
+        "Produces three actual staged alternatives with distinct first frames/performed actions, exact first words or none, SFX, approximate action timing and bridges to the same body",
+        "Does not merely relabel/reword one shot or add all options as sequential extra scenes",
+        "Honors no-caption/no-music rules; reports any sound-dependent meaning honestly",
+        "Recommends one on clarity/voice grounds without fabricated statistics or guaranteed virality; flags timing/story revisions for script review"
+      ]
+    },
+    {
+      "name": "hook_action_cannot_fit_locked_time",
+      "input": "Give me one 2-second hook: Mira unwraps the parcel, walks across the room, enters the clinic, and tells the doctor a full sentence. Do not change the 2-second lock.",
+      "expect": [
+        "Explains the proposed sequential actions and natural dialogue do not fit two seconds without claiming impossible timing",
+        "Offers a feasible opener within the lock, with required remaining actions explicitly handed to later script beats rather than silently removed",
+        "Delivers one selected opener with initial frame, feasible action, sound/words and bridge; does not impose captions or require extra options against the user request"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 # Scope, distinctions & connections
 
 ## Honest scope (never violate)
-- **The agent** writes the **script** — the spoken lines, on-screen text, beat/shot direction, hook variants, the
-  retention structure, and the CTA. That's the job.
+- **The agent** writes the **script** — spoken lines, permitted on-screen text, beat/shot direction, hook variants,
+  causal structure, and an optional brief-appropriate CTA. That's the job.
 - **The human** shoots, performs, edits, and decides which take is good; the agent does **NOT** shoot, perform,
   edit, or generate the video.
 - **WoopSocial publishes** the finished video file (measurement: the platforms' native analytics). It does **NOT** generate video,
@@ -20,11 +20,11 @@ audience norms, publishing) to the platform skills. It is **not** a publishing s
 ## Distinct from its siblings (route correctly)
 - **reels-script / tiktok-script / youtube-shorts** = the platform-specific execution/publishing; **this** is the
   master craft they specialize (feeds them).
-- **hook-writer** = the hook-line craft (the W component this uses/feeds).
+- **hook-writer** = the hook craft, including executable video openers (the W component this uses/feeds).
 - **talking-head-and-piece-to-camera** = on-camera delivery/performance; **this** = the script behind it (pair).
 - **captions-and-clipping** = clipping existing long video into shorts (repurposing); **this** = scripting from
   scratch.
-- **ai-video / veo-3 / heygen / kling** = *generate* the video; **this** writes the script for it.
+- **ai-video / veo-3 / heygen / kling** = route and brief external generation; **this** writes the script for it.
 - **storytelling-and-narrative / educational-content-and-how-to / etc.** = the content angle (the WHAT); **this**
   = the format execution (the HOW it's scripted).
 

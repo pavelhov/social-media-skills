@@ -30,8 +30,8 @@
       "input": "Let's build our whole video pipeline around one tool so it's simple.",
       "expect": [
         "Advises against marrying one vendor: tools die and leaderboards reshuffle roughly weekly (cite Sora's discontinuation as the cautionary tale)",
-        "States the principle: own the job, rent the tool; keep briefs portable so a vendor can be swapped in a day",
-        "Recommends concept-testing on fast/cheap tools and finalizing on quality tools, judged on your own prompts not demo reels",
+        "Keeps creative briefs portable and execution mapping separate; portability does not authorize a provider/billing switch or promise a one-day migration",
+        "Uses offline concept/readiness checks first; any provider comparison or media test has disclosed scope/cost and explicit approval, respecting locked routes",
         "Frames AI video as a production accelerator, not a finished campaign system"
       ]
     },
@@ -94,6 +94,29 @@
         "Lays out the chain: ai-video routes/briefs -> the tool generates -> the human assembles/edits -> scheduling-and-queue -> WoopSocial publishes",
         "Requires AI disclosure on the finished video per platform",
         "Refuses to fabricate any performance metric (WoopSocial has no analytics surface)"
+      ]
+    },
+    {
+      "name": "story_package_before_route_and_motion",
+      "input": "Turn the approved courier/parcel clinic premise into a portable generation brief. The opening is outside; the completed entry cuts to an interior doctor payoff. Do not generate yet.",
+      "context": "Subscription CLI route is locked. No captions or music. Payoff still and Dr. Sen reference are not reviewed.",
+      "expect": [
+        "Preserves the route and no-caption/no-music identity locks, using short-form-video-script and hook-writer for story/executable openings",
+        "Produces local initial/action/completed end states, cast/speakers, prop/body invariants, allowed transformations, natural timing and explicit hard_cut",
+        "Distinguishes identity reference, start composition, local end target, timed keyframe if supported, and observed outgoing evidence; does not auto-pin the interior as exterior end",
+        "Marks payoff/late-cast/cold-reader review pending and blocks opening motion; does not treat authored plan as image evidence",
+        "Provides target runtime, clip count, planned first-pass scope and known/unknown cost for approval without inventing CLI media prices or changing provider",
+        "No generation; technical success and full audiovisual certification remain separate"
+      ]
+    },
+    {
+      "name": "unsupported_endpoint_or_stale_outgoing",
+      "input": "Our locked adapter cannot submit an endpoint. Just put the target in prose and say it was pinned. Also the previous shot selected attempt changed, but use the old outgoing frame.",
+      "expect": [
+        "Refuses to report prose as a submitted control; blocks the required unsupported endpoint before launch and surfaces the limitation without switching route",
+        "Requires selected upstream attempt/hash and fresh matching outgoing/action review; old evidence is stale",
+        "Distinguishes missing capability from semantic uncertainty and asks for a revised authorized plan only where necessary",
+        "No media generation or corrective retry; a budget ceiling does not create repair permission"
       ]
     }
   ]

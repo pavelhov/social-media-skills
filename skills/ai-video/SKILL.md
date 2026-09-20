@@ -38,15 +38,41 @@ Use inspected local tool support and job receipts; label unknowns. Planned tests
 need concrete scope approval; corrective generations need the account's approved repair scope.
 Prefer existing-footage repairs where suitable. Do not turn a budget ceiling into retry permission.
 
+## Story and input readiness before motion
+
+For generative stories, load the identity story/continuity documents, then use
+**short-form-video-script** for desire → action → consequence → visible payoff and **hook-writer** for
+3–5 executable opening alternatives. Each shot needs a local initial state, dominant action, completed
+end state, named cast/speakers, prop/body invariants, permitted transformations and natural action plus
+dialogue timing. Derive target runtime first; clip count follows complete beats and verified limits.
+
+Review the actual payoff board and late cast before opening-shot spending. Record a cold-reader check
+of the causal chain, or mark it pending. Missing, rejected, unknown or stale critical cast/action,
+speaker/source, possession or payoff evidence blocks motion regardless of budget/review rounds. A wrong
+still cannot be prompt-repaired during animation. Revise and review its actual replacement first under
+the applicable image authorization. Keep expressive acting; solve complexity through staging and cuts.
+
+Separate identity references from start composition, local end targets and observed outgoing evidence.
+Use explicit `continuous`, `hard_cut`, `match_cut` or `transformation` transitions; never use
+the following storyboard as the current endpoint automatically. Bind dependent shots to the selected
+upstream attempt and matching evidence. Full field template and review rules:
+[BRIEF template](references/the-brief-framework.md). For Grok, read the sibling
+[shot continuity and control-role guide](../grok-imagine/references/shot-continuity-and-control-roles.md),
+which is available alongside this skill in installed skill collections. The canonical provider
+integration owner in a source checkout is `tools/integrations/grok-imagine.md`; verify actual controls
+against the installed authorized adapter.
+
 ## The framework: BRIEF
 (Depth: `references/the-brief-framework.md`.)
-- **B — Brief the job, not the tool:** a portable spec (subject, action, setting, light/mood,
-  camera, aspect, duration, audio plan, brand fit). No vendor name in the brief.
+- **B — Brief the job, not the tool:** portable story/shot specs with completed actions, cast,
+  invariants, cut reasons and timed sound. Keep authorized route details in a separate execution section.
 - **R — Route by fit:** match the job to the tool category, then the tool by real strength.
-- **I — Iterate cheaply:** concept-test on fast/cheap tools, finalize on quality tools, judge on
-  your own prompts not demos.
-- **E — Edit & assemble:** clips are raw material; the human stitches/edits; cutaways, not whole videos.
-- **F — Finalize & disclose:** AI disclosure per platform; publish via scheduling-and-queue → WoopSocial.
+- **I — Inspect before spending:** review story, payoff/late-cast boards and control roles. Disclose
+  the concrete first-pass scope, calls and known/unknown cost for approval. No autonomous corrective rerolls.
+- **E — Edit & assemble:** use deliberate coverage/cuts and the approved assembly defaults for
+  cutaways or complete generative stories. Preserve necessary action and observed continuity.
+- **F — Finalize & disclose:** technical, visual, audio and story evidence stay distinct; unknown or
+  failed critical full-AV review keeps the master draft. Publish only after explicit confirmation.
 
 ## Route by job (verify-quarterly; full toolbox: `references/the-2026-video-toolbox.md`)
 - **Generative B-roll / scenes** → Veo 3.1 (all-round + native dialogue) → **veo-3**; Kling 3.0
@@ -91,7 +117,9 @@ frames via **nano-banana, ideogram**. Brief consumers: **reels-script** (veo-pro
 Publish: **scheduling-and-queue → WoopSocial**.
 
 ## Definition of done
-The job named; a portable, brand-matched brief (no vendor lock-in); routed to the right tool
+For a generative story, the causal payoff/late-cast package and complete local shot records are ready
+for matching review; critical unknowns remain visibly blocked. Approved route, script-driven runtime,
+clip/call scope, estimate and consent status are explicit. The job named; a portable, brand-matched brief (no vendor lock-in); routed to the right tool
 category and current tool (verify-quarterly) with prompt craft handed to the mini-skill; "film it
 instead" considered; Sora and other dead tools never routed to; AI disclosure planned; publishing
 routed to scheduling-and-queue → WoopSocial; no deepfakes, no fabricated metrics.
