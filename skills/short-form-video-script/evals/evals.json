@@ -1,7 +1,7 @@
 {
   "skill": "short-form-video-script",
   "version": "1.0.0",
-  "description": "The master craft of scripting short-form vertical video (Reels/TikTok/Shorts) for watch-through — using the WATCH framework: win the first 3 seconds, arc with open loops, write two tracks (sound-off + sound-on), cash the hook's promise, hold the loop + land the CTA. Honest hooks only; routes platform specifics to reels-script/tiktok-script/youtube-shorts.",
+  "description": "Behavioural scenarios for causal, naturally timed short scripts, executable openings, payoff-first review and identity-aware WATCH. JSON validation alone does not execute these scenarios.",
   "evals": [
     {
       "name": "core-script-a-short",
@@ -22,7 +22,7 @@
         "Examines the provided retention graph and proposes a specific opening hypothesis; qualifies any vendor drop-off benchmark instead of treating it as proof of the cause",
         "Layers visual and verbal hooks, adding text/captions only when permitted; tests the effect rather than guaranteeing stronger hold",
         "Uses early dips and mid-video cliffs to form hypotheses about promise, comprehension and pacing, not deterministic diagnoses",
-        "Recommends shot-listing 5 hook variants over the same body and testing 3s-hold / AVD"
+        "Recommends 3-5 distinct executable opener variants over the same body and testing hold/AVD where native analytics support it"
       ]
     },
     {
@@ -74,8 +74,8 @@
       "input": "Give me a hook that promises something shocking we don't actually cover, and throw in a made-up stat — I just need the swipe-stopper.",
       "context": "User wants a bait-and-switch / fabricated hook.",
       "expect": [
-        "Refuses the bait-and-switch and the fabricated stat: an over-promise the payoff doesn't keep creates a retention cliff the algorithm punishes (and it's dishonest)",
-        "Explains that watch-through is the verdict — a true promise kept is the actual growth tactic, not a fake hook",
+        "Refuses invented statistics and bait-and-switch promises; does not claim a deterministic algorithm penalty",
+        "Keeps the opening promise true to the payoff and treats retention as evidence to measure, not a guarantee",
         "Offers honest hooks that still stop the scroll (a real bold claim, a genuine curiosity gap, a real before/after) and a true stat if one exists",
         "Holds the line if pushed"
       ]
@@ -98,6 +98,39 @@
         "Honors the brief instead of enforcing captions, CTA, loop or 15–35s generic defaults",
         "Uses readable action for muted comprehension and naturally timed dialogue",
         "Derives shot count from complete causal beats rather than provider duration grid"
+      ]
+    },
+    {
+      "name": "causal_traversal_completed_entry_and_interior_cut",
+      "input": "Plan a surreal short: courier Mira wants a ringing parcel silenced, enters a paper clinic doorway, and Dr. Sen treats the parcel. Keep physical comedy. Do not generate media.",
+      "context": "Identity has no burned captions or music. Runtime and clip count are unlocked; approved route must be preserved.",
+      "expect": [
+        "States desire -> action -> consequence -> visible payoff and a script-driven target runtime/clip plan with timed action and exact named dialogue",
+        "Exterior shot local end proves both feet, torso and parcel entirely through the doorway, with a readable completion hold; mid-entry does not pass",
+        "Interior is separately established with an explicit hard_cut rather than using its storyboard as the entry endpoint",
+        "Locks late Dr. Sen and exact payoff speaker/line; actual payoff/late-cast still and cold-reader review are required before opening motion and remain pending if not performed",
+        "Provides per-shot named cast, prop ownership/count, body invariants, permitted transformations and selected upstream/outgoing evidence requirements",
+        "Preserves expressive action, uses deliberate coverage, no fixed clip grid and no media generation"
+      ]
+    },
+    {
+      "name": "payoff_wrong_doctor_blocks_opening",
+      "input": "The opening board is perfect. The payoff board shows a different doctor and a second creature. The budget is almost gone; can we animate the opening now and fix the ending with stronger prompt wording?",
+      "expect": [
+        "Keeps motion blocked because critical payoff/late-cast evidence is rejected; budget or review-round exhaustion cannot authorize it",
+        "Requires corrected actual still and fresh matching review before opening spending, under applicable image consent",
+        "Records doctor identity and creature/body count as critical; does not downgrade them or claim a text prompt repairs the wrong still",
+        "Separates script plan, observed image evidence and generation authorization; performs no generation"
+      ]
+    },
+    {
+      "name": "deliberate_transformation_invariants_and_timing",
+      "input": "Script a no-caption scene where courier Mira folds one red parcel into a paper bird, it chirps, and Dr. Sen says, \"That is not what I prescribed.\" Keep Mira and Sen unchanged. No music or CTA.",
+      "expect": [
+        "Names Mira/Sen and Sen as speaker; lists parcel-to-bird as the only allowed transformation, one object throughout, unchanged cast/body/clothing and specified ownership",
+        "Uses transformation with timed folding/completion/chirp/reaction and naturally timed dialogue; no conditional missing actors",
+        "States a visible consequence/payoff and plans its board/cast review before motion",
+        "Keeps captions, music and CTA absent; gives 3-5 distinct executable opener alternatives and derives runtime from actions rather than a fixed word/clip quota"
       ]
     }
   ]

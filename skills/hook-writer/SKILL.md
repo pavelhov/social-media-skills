@@ -9,7 +9,7 @@ description: >-
   the brand, not viral-bait templates. Hooks must be TRUE to the content that follows — this
   skill extracts the hook from the post's strongest element and never overpromises. For full
   captions use caption-writer; for full video scripts use the video skills. This writes the
-  opening itself.
+  opening itself; video options include performed actions and audio, not just alternative slogans.
 metadata:
   version: 1.0.0
 license: MIT
@@ -19,8 +19,7 @@ license: MIT
 
 The hook is the highest-leverage line in any piece of content. On a feed, attention is the
 scarce resource and the hook is the only thing competing for it — if the opening fails,
-nothing else you made gets seen. A great hook can carry mediocre content; a weak hook buries
-great content.
+nothing else you made gets seen. The opening earns a reason to continue; the body still has to deliver it.
 
 Two ideas run through everything here:
 
@@ -29,14 +28,15 @@ Two ideas run through everything here:
    to keep going. Hooks are about the **mechanism**, not the template. "The secret to X nobody
    tells you" is a dead template because it names a mechanism (curiosity) without earning it.
 2. **A hook is a promise, and the content must pay it off.** A hook that overpromises wins the
-   tap and loses the trust — and platforms punish the bounce that follows. The strongest hooks
+   tap and loses the trust — and can disappoint the audience. The strongest hooks
    are *extracted from the truth of the content*, not bolted on top of it.
 
 ## Step 0 — Read the foundation first
 
 Load `brand-profile.md` and `voice.md`. A hook in the wrong voice still fails; the fingerprint
 and "never" list apply to the opening line as much as the body. If neither exists, run
-`brand-profile` (and `voice-builder` if samples exist) first.
+`brand-profile` (and `voice-builder` if samples exist) first. Read any identity story, continuity and
+delivery rules too. Caption/text, music, CTA and dialogue choices take precedence over format defaults.
 
 ## Step 1 — Pin the format and its cutoff
 
@@ -44,8 +44,8 @@ A hook for a caption first line is not a hook for a video's first three seconds.
 format and the constraint it imposes (see `references/formats.md`):
 
 - **Caption** — one line before the "…more" cutoff (~125 chars on Instagram).
-- **Video** — the first 1–3 seconds, across *three channels at once*: what's on screen, the
-  first spoken words, and on-screen text. Must work muted.
+- **Video** — the opening moments: first frame, visible action and sound, plus text only when the
+  brief permits it. Check muted comprehension honestly; dialogue-led meaning can depend on sound.
 - **Carousel cover** — slide 1 is the hook; it must promise the swipe.
 - **Thread opener** — the first post must promise the thread's payoff.
 - **YouTube** — title + thumbnail together.
@@ -70,27 +70,49 @@ earned rather than baited.
 Write **5–10 candidate hooks**, deliberately using *different mechanisms* from
 `references/mechanisms.md` (curiosity gap, contrarian, stakes, specificity, identity, story,
 mistake, transformation, question, timeliness, authority). Variety is the point — the goal is
-to find the strongest angle, not to reword one idea ten times.
+to find the strongest angle, not to reword one idea ten times. For a video-script handoff, develop **3–5 executable opening
+variants**, unless the user requests a different number. Each includes first frame/cast, performed
+action, exact first words (or none), SFX/music as allowed, approximate timing, and a bridge into the
+body. Change the staging, entry point or observable event, not just the sentence or mechanism label.
+Keep the variants alternative ways into the same approved premise; do not add them as extra shots.
 
 ## Step 4 — Score and select
 
 Run the candidates through the rubric in `references/scoring.md` and keep the best 1–2. The
-rubric checks: does it open a real gap? is it specific? is it true to the content? does it fit
-the format's cutoff? does it sound like them? would a stranger *need* the next beat? Discard
+rubric checks the gap, specificity, truth, format cutoff and voice: would a stranger *need* the next
+beat? For video, can the named cast perform the action within its time, from its initial pose, and
+finish in a state that connects to the body? Discard
 the rest without sentiment — most hooks you write should die.
 
 ## Step 5 — Tune to format and voice; confirm the payoff
 
-Polish the winner for the format (cut to the caption cutoff; add the visual + on-screen text
-for video; make the carousel cover legible at a glance). Re-check it sounds like the brand. And
+Polish the winner for the format (fit the caption preview; stage the video action and exact
+audio, with text only if permitted; make the carousel cover legible at a glance). Re-check it sounds like the brand. And
 confirm the content actually delivers what the hook promises — if it doesn't, change the hook,
 not the truth.
 
 ## Deliver options, recommend one
 
 Give the user **2–3 distinct hooks** built on different mechanisms, then recommend one with a
-one-line reason tied to the goal/format. Real alternatives beat a single take, and seeing
+one-line reason tied to the goal/format. When feeding a script that requests 3–5 variants, deliver
+that set with the same recommendation; a user asking for one still receives one. Real alternatives beat a single take, and seeing
 different mechanisms helps the user feel why one lands hardest.
+
+## Video example — three different performed openers
+
+Premise: a courier brings a ringing parcel into a clinic; the doctor treats the parcel. No captions.
+These fictional alternatives preserve that payoff:
+
+| Mechanism | Opening visual/action | Exact audio | Bridge |
+|---|---|---|---|
+| Urgency | Courier recoils as the parcel rings, then looks at the clinic doorway | “Please stop ringing.” + ring | Braces doorway to enter |
+| Failed solution | Courier muffles parcel under sleeve; ringing gets louder; uncovers it | No dialogue; fabric scrape + louder ring | Turns toward doorway |
+| Absurd command | Courier taps parcel to shush it; parcel answers; courier points it at clinic | “Inside. Now.” + single ring | Carries it through doorway |
+
+Budget each selected performance's actual time in **short-form-video-script**. A three-second target
+is not permission to rush a physical action or truncate a line. Recommend the opener that makes the
+problem and next action clearest; do not claim the choice is proven viral. If an option changes a
+required prop, cast member or payoff, label that story revision for re-review before motion.
 
 ## Quality bar — self-check
 
@@ -111,8 +133,8 @@ If it doesn't pass "would a stranger need the next beat?", it isn't a hook yet.
   and either find the relatable angle or suggest sharpening the post itself.
 - **Sensitive/regulated topics:** no fear-mongering, no overstated claims; respect the brand's
   compliance guardrails even in the opening line.
-- **Video, muted-first:** the on-screen text and the visual must hook on their own; assume sound
-  off.
+- **Video with no captions:** keep text absent; make the visual situation readable and use the
+  approved dialogue/SFX. Note what a mute viewer misses instead of silently changing the format.
 - **Tempted to overpromise for reach:** don't. A truthful, slightly less sensational hook that
   the content delivers beats a viral-bait line that burns trust and bounces.
 
