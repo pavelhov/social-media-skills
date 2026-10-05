@@ -39,9 +39,41 @@ Grok CLI workflow and the paid xAI API are separate authorization and capability
   Before corrective generation, disclose affected shots, preserved assets, method and attempt allowance
   and obtain approval unless that exact repair batch is already approved. Do not expand scope or
   change provider/billing route silently. Preserve originals and successful selected shots.
-- A completed render is still a draft. Review it for quality, rights, safety, and disclosure before
-  any publishing step. Publishing, scheduling, and deletion each require their own explicit user
+- A completed render is still a draft. Record separate technical, visual, audio and story checks;
+  complete synchronized review of the selected master is required for full audiovisual claims. Unknown
+  or failed critical checks cannot become a pass after more review rounds. Review rights and disclosure
+  before any publishing step. Publishing, scheduling, and deletion each require their own explicit user
   confirmation.
+
+## Story readiness and role-preserving control mapping
+
+Before mapping a shot into the selected adapter, require a causal script (desire → action → consequence
+→ visible payoff), completed local shot states, explicit cast/speakers and payoff/late-cast board review.
+An opening board alone is insufficient. Wrong, missing, unknown or stale critical cast/action,
+speaker/source, possession or payoff evidence blocks motion; a numeric allowance or review-round ceiling
+cannot waive it. A wrong still cannot be repaired by stronger negative motion wording.
+
+Plan and review local start and completed-end boards. That does not universally require submitting
+an endpoint pin; the approved method decides required execution controls. Carry separate bindings for
+identity references, start composition, the shot's local end target and
+supported timed keyframes. Record intended roles, input hashes and actually submitted controls; same
+bytes do not collapse separate roles. Verify the installed CLI adapter's supported operations and
+combinations. Do not apply the API matrix below to the CLI, invent a media-model ID, silently drop a
+required endpoint/control, or describe a prompt-only request as pinned. An unsupported required binding
+must fail before launch and be resolved within the authorized route/scope.
+
+Use explicit `continuous`, `hard_cut`, `match_cut` or `transformation` transitions. An exterior
+entry ends with completed traversal; a deliberate interior cut has its own start composition. Never
+bind the following storyboard as the current ending automatically. Bind dependent shots to the selected
+upstream attempt/output hash and observed outgoing frame/action evidence; changed bytes or selections
+require fresh dependent review. Identity anchors describe design, not observed continuity.
+
+The complete portable directing method is in
+`skills/grok-imagine/references/shot-continuity-and-control-roles.md`; the script/brief owners are
+`short-form-video-script` and `ai-video`. These labels describe control purposes, not new provider
+fields. Keep route-aware receipts and selected/rejected attempt evidence; reconcile a timed-out job
+using its original job/session identity before considering any new attempt. File existence or size
+alone is not permission to reuse or retry.
 
 ## Connection options
 

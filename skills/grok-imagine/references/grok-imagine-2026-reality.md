@@ -21,6 +21,16 @@ overloaded call.
 
 These documented API capabilities do not establish subscription CLI support; inspect the selected route.
 
+## Subscription CLI frame pins (Grok CLI >= 1.0.34)
+As of Grok CLI `1.0.34`, the subscription CLI can pin exact frames on `reference_to_video` / OpenMontage `grok_cli_video`:
+- `first_frame` — literal opening frame
+- `last_frame` — literal ending frame
+- `keyframes` — up to 4 mid-clip `{image, timestamp_s}` anchors (strictly inside the clip)
+
+OpenMontage exposes this as `operation=first_last_frame` (and related aliases) with a minimum-version gate, not an exact pin. Prefer these for dependent continuity joins when the authorized route is CLI subscription. Soft image references and extension remain fallbacks when pins are unavailable or the beat is a hard cut.
+
+Still not CLI-selectable: Imagine Image `2.0` as an explicit model override (`image_gen` still takes prompt/aspect_ratio only). REST may default to Image 2.0 / Video 1.5; do not claim CLI image-model pinning from the API matrix.
+
 ## Duration, resolution, audio, and async behavior
 - Standard generation accepts **1–15 seconds**. That makes outputs shots, not complete long-form videos.
 - The provider currently exposes **480p, 720p, and 1080p where the mode supports them**. Text-to-video and
@@ -77,4 +87,4 @@ Never quote a remembered price, model alias, rate limit, reference cap, or voice
 - Video extension: https://docs.x.ai/developers/model-capabilities/video/extension
 - Current models/pricing: https://docs.x.ai/developers/models and https://docs.x.ai/developers/pricing
 
-Last reviewed: 2026-09-01. Re-verify quarterly.
+Last reviewed: 2026-09-18. Re-verify quarterly.
